@@ -1,0 +1,21 @@
+#######################
+
+#' export GRanges peakset object into BW file
+#'
+#' @param gr GRanges Object
+#' @export
+#'
+PeakSet2BW<-function(gr=NULL,outdir="bwFile"){
+  require("GenomicRanges")
+  require("rtracklayer")
+
+  stopifnot(inherits(gr,"GRanges"))
+
+  if(!dir.exists(outdir)){
+    dir.create(outdir,recursive = TRUE,showWarnings = TRUE)
+  }
+  message("INFO : Export Into BW File")
+  filename=file.path(outtir,"PeakSet.bw")
+  rtracklayer::export(gr,con=filename,format="BigWig")
+  message("INFO : Done!")
+}
