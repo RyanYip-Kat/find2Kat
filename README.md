@@ -41,6 +41,6 @@ how to related CellType to Disease
 ```r
 chromVARSNPpipeline(...)
 ```
-[heatmap](Figures/Median-DeviationScores-Across-label_fine_page-0001.jpg
+[heatmap](Figures/Median-DeviationScores-Across-label_fine_page-0001.jpg)
 
 
