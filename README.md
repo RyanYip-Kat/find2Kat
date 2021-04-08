@@ -35,3 +35,12 @@ reliaze it via code
 DOCRPointPlot(p2g,genes=genes,nShowGenes=10,..)
 ```
 detail can refer to function help
+
+### celltype to Disease
+how to related CellType to Disease
+```r
+chromVARSNPpipeline(...)
+```
+[heatmap](Figures/Median-DeviationScores-Across-label_fine_page-0001.jpg
+
+
