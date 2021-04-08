@@ -48,5 +48,6 @@ data("GeneGTF")
 getP2GLinks(...)
 link2TF(...)
 ```
+##### PS : you can get gtf gene GRanges object with *gene.gtf* by code [getGeneGTF.R](getGeneGTF.R)
 ### Issues using yipCat?
 If this does not fix your problem, please [report an issue on Github](https://github.com/RyanYip-Kat/find2Kat/issues) with the __Bug Report__ form.
