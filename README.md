@@ -43,4 +43,10 @@ chromVARSNPpipeline(...)
 ```
 ![heatmap](Figures/Median-DeviationScores-Across-label_fine_page-0001.jpg)
 
-
+### Link to TF
+```r
+getP2GLinks(...)
+link2TF(...)
+```
+### Issues using yipCat?
+If this does not fix your problem, please [report an issue on Github](https://github.com/RyanYip-Kat/find2Kat/issues) with the __Bug Report__ form.
