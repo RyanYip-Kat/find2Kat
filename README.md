@@ -18,6 +18,13 @@ and the result like follow
 
 ![annotation](Figures/annoteFile.png)
 
+### ChipSeeker Annotation after MACS2 CallPeak
+```r
+summitsChipSeekerAnnote(...)
+chipseekerGO(..) # GO pathway analysis
+```
+![](Figures/chipseeker.jpg)
+
 ### DOCR Score
 **getDORCXMatrix** function can get  DORC score(it will take many minutes...);and **DOCRPointPlot** can show DORC Rank gene scatter plot
 ![DOCRHeatmap](Figures/DORCScoreHeatmap_Date-2021-02-10_Time-09-49-02_page-0001.jpg)
