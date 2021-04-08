@@ -18,3 +18,20 @@ annoteFile(File="yourPathOfFiles",Names="relativeNames",blacklist=find2Kat::blac
 and the result like follow 
 
 ![annotation](Figures/annoteFile.png)
+
+### DOCR Score
+**getDORCXMatrix** function can get  DORC score(it will take many minutes...);and **DOCRPointPlot** can show DORC Rank gene scatter plot
+![DOCRHeatmap](Figures/DORCScoreHeatmap_Date-2021-02-10_Time-09-49-02_page-0001.jpg)
+reliaze it via code
+```r
+dorcList=getDORCXMatrix(projHeme)
+x=dorcList[["CellTypeDORC"]]
+colData=data.frame("Clusters"=colnames(x))
+ArchRHeatmap(mat=as.matrix(x),colData=colData,showRowDendrogram=TRUE,scale=TRUE,customRowLabel =c(1,3,5,7))
+```
+![DOCRPointPlot](Figures/DROC_page-0001.jpg)
+reliaze it via code
+```r
+DOCRPointPlot(p2g,genes=genes,nShowGenes=10,..)
+```
+detail can refer to function help
