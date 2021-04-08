@@ -9,3 +9,11 @@ Find2Kat this package, can implement calleak and annote bam, bed file, but also 
 install.packages("find2Kat_0.2.0.tar.gz")
 ```
 you also need to install depend packages via *require-packages.txt*
+
+### callpeak for BAM or BED file and annotation
+you can use function **annoteFile** reliaze
+```r
+annoteFile(File="yourPathOfFiles",Names="relativeNames",blacklist=find2Kat::blacklist[["hg38"]],genome="hg38",...)
+```
+and the result like follow 
+![annotation](./Figures/annoteFile.png]
