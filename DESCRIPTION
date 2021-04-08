@@ -1,0 +1,58 @@
+Package: find2Kat
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.2.0
+Author: Ryanyip
+Maintainer: RyanYip <ryanip_@hotmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Imports:
+    Rcpp,
+    matrixStats,
+    plyr,
+    nabor,
+    motifmatchr,
+    chromVAR,
+    uwot,
+    ggrepel,
+    Rsamtools,
+    gtable,
+    gtools,
+    stringr,
+    grid,
+    gridExtra,
+    Biostrings,
+    ComplexHeatmap
+Depends:
+    Seurat,
+    ggplot2,
+    SummarizedExperiment,
+    data.table,
+    Matrix,
+    rhdf5,
+    magrittr,
+    S4Vectors,
+    plyr,
+    dplyr,
+    BiocGenerics,
+    GenomicRanges,
+    Rcpp,
+    matrixStats,
+    nabor,
+    motifmatchr,
+    chromVAR,
+    uwot,
+    ggrepel,
+    Rsamtools,
+    gtable,
+    gtools,
+    stringr,
+    grid,
+    gridExtra,
+    Biostrings,
+    ComplexHeatmap

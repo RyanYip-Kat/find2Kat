@@ -1,0 +1,26 @@
+{
+    "id": "272751B2",
+    "path": "H:/Rpackage/find2Kat/R/annoteBED.R",
+    "project_path": "R/annoteBED.R",
+    "type": "r_source",
+    "hash": "440398138",
+    "contents": "",
+    "dirty": false,
+    "created": 1617842829683.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "404,38",
+        "scrollLine": "392"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1617842860,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617842859926,
+    "read_only": false,
+    "read_only_alternatives": []
+}
