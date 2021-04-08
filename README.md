@@ -44,6 +44,7 @@ chromVARSNPpipeline(...)
 
 ### Link to TF
 ```r
+data("GeneGTF")
 getP2GLinks(...)
 link2TF(...)
 ```
