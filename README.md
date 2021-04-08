@@ -16,4 +16,5 @@ you can use function **annoteFile** reliaze
 annoteFile(File="yourPathOfFiles",Names="relativeNames",blacklist=find2Kat::blacklist[["hg38"]],genome="hg38",...)
 ```
 and the result like follow 
-![annotation](Figures/annoteFile.png]
+
+![annotation](Figures/annoteFile.png)
