@@ -700,8 +700,8 @@ gr2Feature<-function(seATAC=NULL){
 seuratTose<-function(object=NULL){
   #require("Seurat")
   metadata<-object@meta.data
-  logcount<-GetAssayData(seurat,"data")
-  count<-GetAssayData(seurat,"counts")
+  logcount<-GetAssayData(object,"data")
+  count<-GetAssayData(object,"counts")
 
   print("Converting...")
   se<-SummarizedExperiment::SummarizedExperiment(assays=list(counts=count,logcounts=logcount),
