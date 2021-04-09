@@ -62,6 +62,7 @@ data("pwms")
 motif.obj<-GRangesAddMotifs(object=features,genome=BSgenome.Mmusculus.UCSC.mm10,pfm=pwms[["mouse"]])
 MotifPlot(motif.obj,motifs=c(..),..)
 ```
+![motif](Figures/motif.jpeg)
 
 ### get Count from BAM file after aligment of fastq files
 ```r
