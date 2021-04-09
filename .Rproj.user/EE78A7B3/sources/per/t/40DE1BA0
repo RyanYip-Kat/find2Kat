@@ -1,0 +1,27 @@
+{
+    "id": "40DE1BA0",
+    "path": "H:/Rpackage/find2Kat/R/bamToCount.R",
+    "project_path": "R/bamToCount.R",
+    "type": "r_source",
+    "hash": "3781065749",
+    "contents": "",
+    "dirty": false,
+    "created": 1617936183023.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "20,40",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1617940212,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617940210957,
+    "read_only": false,
+    "read_only_alternatives": []
+}

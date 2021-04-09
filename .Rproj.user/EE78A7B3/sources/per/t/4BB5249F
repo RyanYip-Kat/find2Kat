@@ -1,0 +1,26 @@
+{
+    "id": "4BB5249F",
+    "path": "H:/Rpackage/find2Kat/R/tools.R",
+    "project_path": "R/tools.R",
+    "type": "r_source",
+    "hash": "759566429",
+    "contents": "",
+    "dirty": true,
+    "created": 1617699634245.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "624,19",
+        "scrollLine": "620"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1617858640,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617926196632,
+    "read_only": false,
+    "read_only_alternatives": []
+}

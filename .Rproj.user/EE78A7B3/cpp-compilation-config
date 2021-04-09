@@ -1,0 +1,13 @@
+{
+    "args": [
+        "-ID:/software/install/RStudio/resources/libclang/builtin-headers/5.0.2",
+        "-ID:/software/install/RStudio/resources/libclang/builtin-headers/libc++/5.0.2",
+        "-ID:/software/install/R-4.0.4/library/Rcpp/include",
+        "-std=gnu++11",
+        "-ID:/software/install/R-40~1.4/include",
+        "-DNDEBUG"
+    ],
+    "pch": "Rcpp",
+    "is_cpp": true,
+    "hash": "1617608758"
+}
