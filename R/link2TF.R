@@ -14,12 +14,7 @@ link2TF<-function(diffRNA=NULL,
   require("SummarizedExperiment")
   require("Matrix")
 
-  stopifnot(class(diffRNA)=="SummarizedExperiment")
-  stopifnot(class(diffATAC)=="RangedSummarizedExperiment")
-  stopifnot(class(p2gLinks)=="GRanges")
-  stopifnot(class(matches)=="RangedSummarizedExperiment")
-
-  rownames(diffObj)<-rowData(diffObj)$name
+  rownames(diffRNA)<-rowData(diffRNA)$name
   rownames(matches) <- paste(seqnames(matches),start(matches),end(matches), sep = "_")
   rownames(diffATAC) <- paste(seqnames(diffATAC),start(diffATAC),end(diffATAC), sep = "_")
 
