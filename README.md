@@ -56,13 +56,17 @@ getP2GLinks(...)
 link2TF(...)
 ```
 ### Motif Module for Granges Object
-```
+```r
 #features Granges Object,eg,getPeakSet(ArchRProject)
 data("pwms")
 motif.obj<-GRangesAddMotifs(object=features,genome=BSgenome.Mmusculus.UCSC.mm10,pfm=pwms[["mouse"]])
 MotifPlot(motif.obj,motifs=c(..),..)
 ```
 
+### get Count from BAM file after aligment of fastq files
+```r
+se=bam2Count(bamfiles=bamFiles,bamNames=bamNames,peaks=peaks)
+```
 ##### PS : you can get gtf gene GRanges object with *gene.gtf* by code [getGeneGTF.R](getGeneGTF.R)
 ### Issues using yipCat?
 If this does not fix your problem, please [report an issue on Github](https://github.com/RyanYip-Kat/find2Kat/issues) with the __Bug Report__ form.
