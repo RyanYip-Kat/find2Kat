@@ -6,6 +6,8 @@ Find2Kat this package, can implement calleak and annote bam, bed file, but also 
 ### installtation
 ```r
 install.packages("find2Kat_0.2.0.tar.gz")
+# or 
+devtools::install_github("RyanYip-Kat/find2Kat")
 ```
 you also need to install depend packages via [dependency](require-packages.txt)
 
