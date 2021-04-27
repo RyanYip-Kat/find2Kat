@@ -1,0 +1,9 @@
+rowZscores<-function (m = NULL, min = -2, max = 2, limit = FALSE)
+{
+  z <- sweep(m - Matrix::rowMeans(m), 1, matrixStats::rowSds(m), `/`)
+  if (limit) {
+    z[z > max] <- max
+    z[z < min] <- min
+  }
+  return(z)
+}

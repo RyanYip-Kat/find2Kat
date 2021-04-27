@@ -1,0 +1,41 @@
+[
+    {
+        "file": "F:/Rpackage/find2Kat/src/Correlation.cpp",
+        "file_last_write": 1615217056.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rowCorCpp#I#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rowCorCpp(Rcpp::IntegerVector, Rcpp::IntegerVector, Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
+                "file": "F:/Rpackage/find2Kat/src/Correlation.cpp",
+                "line": 8,
+                "column": 21
+            }
+        ]
+    },
+    {
+        "file": "F:/Rpackage/find2Kat/src/General_Utils.cpp",
+        "file_last_write": 1615217056.0,
+        "definitions": [
+            {
+                "usr": "c:@F@tabulate2dCpp#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "tabulate2dCpp(Rcpp::IntegerVector &, int &, int &, Rcpp::IntegerVector &, int &, int &)",
+                "file": "F:/Rpackage/find2Kat/src/General_Utils.cpp",
+                "line": 24,
+                "column": 15
+            },
+            {
+                "usr": "c:@F@computeSparseRowVariances#I#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "computeSparseRowVariances(Rcpp::IntegerVector, Rcpp::NumericVector, Rcpp::NumericVector, int)",
+                "file": "F:/Rpackage/find2Kat/src/General_Utils.cpp",
+                "line": 72,
+                "column": 21
+            }
+        ]
+    }
+]

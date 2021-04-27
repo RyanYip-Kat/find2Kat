@@ -1,0 +1,64 @@
+Package: find2Kat
+Type: Package
+Title: Some Tools for Granges Object,BAM,BED files,Motif...
+Version: 0.4.0
+Author: Ryanyip
+Maintainer: RyanYip <ryanip_@hotmail.com>
+Description: A framework for the analysis and exploration of GRanges Objects,ARchr Project,BAM and BED files...
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Imports:
+    Seurat,
+    ChIPseeker,
+    Rcpp,
+    matrixStats,
+    SummarizedExperiment,
+    Matrix,
+    data.table,
+    magrittr,
+    plyr,
+    nabor,
+    motifmatchr,
+    chromVAR,
+    uwot,
+    ggrepel,
+    Rsamtools,
+    gtable,
+    gtools,
+    stringr,
+    grid,
+    gridExtra,
+    Biostrings,
+    ComplexHeatmap
+Depends:
+    ChIPseeker,
+    Seurat,
+    ggplot2,
+    magrittr,
+    SummarizedExperiment,
+    data.table,
+    Matrix,
+    rhdf5,
+    magrittr,
+    S4Vectors,
+    plyr,
+    BiocGenerics,
+    GenomicRanges,
+    Rcpp,
+    matrixStats,
+    nabor,
+    motifmatchr,
+    chromVAR,
+    uwot,
+    ggrepel,
+    Rsamtools,
+    gtable,
+    gtools,
+    stringr,
+    grid,
+    gridExtra,
+    Biostrings,
+    ComplexHeatmap
